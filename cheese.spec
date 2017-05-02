@@ -4,7 +4,7 @@
 #
 Name     : cheese
 Version  : 3.24.0
-Release  : 1
+Release  : 2
 URL      : https://download.gnome.org/sources/cheese/3.24/cheese-3.24.0.tar.xz
 Source0  : https://download.gnome.org/sources/cheese/3.24/cheese-3.24.0.tar.xz
 Summary  : Cheese webcam widgets

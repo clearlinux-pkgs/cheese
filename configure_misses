@@ -1,0 +1,9 @@
+Configure miss: X11/extensions/XTest.h usability
+Configure miss: X11/extensions/XTest.h presence
+Configure miss: X11/extensions/XTest.h
+Configure miss: lcov
+Configure miss: genhtml
+Configure miss: XML catalog
+Configure miss: DocBook XML DTD V4.3 in XML catalog
+Configure miss: DocBook XSL Stylesheets in XML catalog
+Configure miss: appstream-util

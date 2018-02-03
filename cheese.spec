@@ -4,7 +4,7 @@
 #
 Name     : cheese
 Version  : 3.26.0
-Release  : 4
+Release  : 5
 URL      : https://download.gnome.org/sources/cheese/3.26/cheese-3.26.0.tar.xz
 Source0  : https://download.gnome.org/sources/cheese/3.26/cheese-3.26.0.tar.xz
 Summary  : Cheese webcam utilities
@@ -101,12 +101,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1505193163
+export SOURCE_DATE_EPOCH=1517619939
 %configure --disable-static --disable-schemas-compile
-make V=1
+make
 
 %install
-export SOURCE_DATE_EPOCH=1505193163
+export SOURCE_DATE_EPOCH=1517619939
 rm -rf %{buildroot}
 %make_install
 %find_lang cheese

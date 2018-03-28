@@ -4,7 +4,7 @@
 #
 Name     : cheese
 Version  : 3.28.0
-Release  : 6
+Release  : 7
 URL      : https://download.gnome.org/sources/cheese/3.28/cheese-3.28.0.tar.xz
 Source0  : https://download.gnome.org/sources/cheese/3.28/cheese-3.28.0.tar.xz
 Summary  : Cheese webcam utilities

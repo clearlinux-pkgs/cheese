@@ -1,6 +1,3 @@
-Configure miss: X11/extensions/XTest.h usability
-Configure miss: X11/extensions/XTest.h presence
-Configure miss: X11/extensions/XTest.h
 Configure miss: lcov
 Configure miss: genhtml
 Configure miss: XML catalog

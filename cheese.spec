@@ -4,7 +4,7 @@
 #
 Name     : cheese
 Version  : 3.34.0
-Release  : 15
+Release  : 16
 URL      : https://download.gnome.org/sources/cheese/3.34/cheese-3.34.0.tar.xz
 Source0  : https://download.gnome.org/sources/cheese/3.34/cheese-3.34.0.tar.xz
 Summary  : Take photos and videos with your webcam, with fun graphical effects

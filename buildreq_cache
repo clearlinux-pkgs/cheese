@@ -1,6 +1,4 @@
-3.34.0
-appstream-glib
+3.38.0
 docbook-xml
 pkgconfig(gnome-video-effects)
 pkgconfig(libcanberra)
-pkgconfig(libcanberra-gtk3)

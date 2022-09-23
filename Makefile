@@ -1,5 +1,5 @@
 PKG_NAME := cheese
-URL = https://download.gnome.org/sources/cheese/41/cheese-41.0.tar.xz
+URL = https://download.gnome.org/sources/cheese/43/cheese-43.alpha.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common

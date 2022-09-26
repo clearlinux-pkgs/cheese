@@ -4,7 +4,7 @@
 #
 Name     : cheese
 Version  : 43.alpha
-Release  : 28
+Release  : 29
 URL      : https://download.gnome.org/sources/cheese/43/cheese-43.alpha.tar.xz
 Source0  : https://download.gnome.org/sources/cheese/43/cheese-43.alpha.tar.xz
 Summary  : No detailed summary available

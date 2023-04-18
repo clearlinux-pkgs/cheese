@@ -4,10 +4,10 @@
 # Using build pattern: meson
 #
 Name     : cheese
-Version  : 43.0
-Release  : 37
-URL      : https://download.gnome.org/sources/cheese/43/cheese-43.0.tar.xz
-Source0  : https://download.gnome.org/sources/cheese/43/cheese-43.0.tar.xz
+Version  : 44.0.1
+Release  : 38
+URL      : https://download.gnome.org/sources/cheese/44/cheese-44.0.1.tar.xz
+Source0  : https://download.gnome.org/sources/cheese/44/cheese-44.0.1.tar.xz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
@@ -114,15 +114,15 @@ man components for the cheese package.
 
 
 %prep
-%setup -q -n cheese-43.0
-cd %{_builddir}/cheese-43.0
+%setup -q -n cheese-44.0.1
+cd %{_builddir}/cheese-44.0.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680018773
+export SOURCE_DATE_EPOCH=1681856182
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -626,9 +626,9 @@ DESTDIR=%{buildroot} ninja -C builddir install
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libcheese-gtk.so.25
-/usr/lib64/libcheese-gtk.so.25.1.6
+/usr/lib64/libcheese-gtk.so.25.1.7
 /usr/lib64/libcheese.so.8
-/usr/lib64/libcheese.so.8.0.18
+/usr/lib64/libcheese.so.8.0.19
 
 %files license
 %defattr(0644,root,root,0755)

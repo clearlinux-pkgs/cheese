@@ -1,13 +1,47 @@
 ChangeLog for Cheese
 --------------------
 
-version 43.0
+version 44.0.1
+  - Update AppStream metadata
 
- - TODO
+version 44.0
+  - Avoid creating duplicated camera devices
+    Devices detected in `cheese_camera_device_monitor_coldplug()` may get
+    duplicated, as Gstreamer will emit `GST_MESSAGE_DEVICE_ADDED` for them.
+
+    While this issue could be fixed by reorganizing the initialization code,
+    let's go with a simple and robust solution and check if a
+    `CheeseCameraDevice` using the `GstDevice` is already present.
+  - build: Use GNOME module post_install()
+  - Added/Updated Translations
+    - ab, courtesy of Nart Tlisha
+
+version 43.0
+  - TODO: code changes
+    - be, courtesy of Vasil Pupkin
+    - ie, courtesy of Olga Smirnova
+    - ka, courtesy of Zurab Kargareteli, Ekaterine Papava
+    - tr, courtesy of Sabri Ünal
+  - Added/Updated Documentation
+    - fr, courtesy of Charles Monzat
 
 version 43.alpha
+  - TODO: code changes
+  - Added/Updated Translations
+    - ab, courtesy of Nart Tlisha
+    - fr, courtesy of Charles Monzat
+    - id, courtesy of Kukuh Syafaat
+    - is, courtesy of Sveinn í Felli
+    - nl, courtesy of Nathan Follens
+    - ka, courtesy of Natik Kurbanov
+  - Added/Updated Documentation
+    - eu, courtesy of Asier Sarasua Garmendia
+    - nl, courtesy of Nathan Follens
 
- - TODO
+version 41.1
+  - TODO: code changes
+  - Added/Updated Translations
+    - bg, courtesy of Alexander Shopov
 
 version 41.0
   - Allow headerbar to appear on all desktops

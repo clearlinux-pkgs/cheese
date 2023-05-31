@@ -5,7 +5,7 @@
 #
 Name     : cheese
 Version  : 44.0.1
-Release  : 39
+Release  : 40
 URL      : https://download.gnome.org/sources/cheese/44/cheese-44.0.1.tar.xz
 Source0  : https://download.gnome.org/sources/cheese/44/cheese-44.0.1.tar.xz
 Summary  : No detailed summary available
